@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"checkmc.dungeoneering.Dungeoneering"
+          "checkmc.dungeoneering.DungeoneeringMain"
 		],
 		"fabric-datagen": [
-			"checkmc.dungeoneering.DungeoneeringDataGenerator"
+			"checkmc.dungeoneering.datagen.DungeoneeringDataGenerator"
 		]
 	},
 	"mixins": [
