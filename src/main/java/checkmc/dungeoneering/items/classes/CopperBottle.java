@@ -45,7 +45,7 @@ public class CopperBottle extends Item {
         else {
             ArrayList<Entity> excludeList = new ArrayList<Entity>();
             excludeList.add(user);
-            strikeNextEntity(user, 5, world, user, excludeList);
+            strikeNextEntity(user, maxChainLength, world, user, excludeList);
             itemStack.set(DataComponentTypes.DAMAGE, damageTaken + 1);
             return TypedActionResult.success(itemStack, true);
         }
@@ -68,7 +68,6 @@ public class CopperBottle extends Item {
         } else {
             return;
         }
-
 
         // Finding nearest mob that is valid
         for (int i = 0; i < allNearby.size(); i++) {

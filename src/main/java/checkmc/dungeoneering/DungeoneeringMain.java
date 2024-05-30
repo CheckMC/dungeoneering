@@ -22,5 +22,9 @@ public class DungeoneeringMain implements ModInitializer {
 		LOGGER.info("Dungeoneering started");
 		DungeoneeringItems.registerItems();
 		DungeoneeringItemGroups.registerItemGroups();
+
+		// Model Predicate for Copper Bottle
+
+
 	}
 }
