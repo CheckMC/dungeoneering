@@ -17,9 +17,10 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        for (int i = 0; i < DungeoneeringItems.ALL_ITEMS.size(); i++) {
-            itemModelGenerator.register(DungeoneeringItems.ALL_ITEMS.get(i), Models.GENERATED);
-        }
+        //for (int i = 0; i < DungeoneeringItems.ALL_ITEMS.size(); i++) {
+        //    itemModelGenerator.register(DungeoneeringItems.ALL_ITEMS.get(i), Models.GENERATED);
+        //}
+        itemModelGenerator.register(DungeoneeringItems.COPPER_BOTTLE, Models.GENERATED);
     }
 
 }
