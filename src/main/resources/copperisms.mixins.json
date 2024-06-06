@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "checkmc.dungeoneering.mixin",
+	"package": "checkmc.copperisms.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "CopperismsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

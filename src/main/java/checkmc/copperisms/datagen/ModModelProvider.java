@@ -1,6 +1,6 @@
-package checkmc.dungeoneering.datagen;
+package checkmc.copperisms.datagen;
 
-import checkmc.dungeoneering.items.DungeoneeringItems;
+import checkmc.copperisms.items.CopperismsItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -17,10 +17,10 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        //for (int i = 0; i < DungeoneeringItems.ALL_ITEMS.size(); i++) {
-        //    itemModelGenerator.register(DungeoneeringItems.ALL_ITEMS.get(i), Models.GENERATED);
+        //for (int i = 0; i < copperismsItems.ALL_ITEMS.size(); i++) {
+        //    itemModelGenerator.register(copperismsItems.ALL_ITEMS.get(i), Models.GENERATED);
         //}
-        itemModelGenerator.register(DungeoneeringItems.COPPER_BOTTLE, Models.GENERATED);
+        itemModelGenerator.register(CopperismsItems.COPPER_BOTTLE, Models.GENERATED);
     }
 
 }

@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "dungeoneering",
+	"id": "copperisms",
 	"version": "${version}",
-	"name": "Dungeoneering",
+	"name": "copperisms",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,18 +12,15 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/dungeoneering/icon.png",
+	"icon": "assets/copperisms/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "checkmc.dungeoneering.DungeoneeringMain"
-		],
-		"fabric-datagen": [
-			"checkmc.dungeoneering.datagen.DungeoneeringDataGenerator"
+          "checkmc.copperisms.CopperismsMain"
 		]
 	},
 	"mixins": [
-		"dungeoneering.mixins.json"
+		"copperisms.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

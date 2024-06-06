@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dungeoneering:item/copper_bottle_4"
+    "layer0": "copperisms:item/copper_bottle_1"
   }
 }
