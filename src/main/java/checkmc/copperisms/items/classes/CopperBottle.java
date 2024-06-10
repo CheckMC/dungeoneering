@@ -2,6 +2,7 @@ package checkmc.copperisms.items.classes;
 
 import checkmc.copperisms.CopperismsMain;
 import checkmc.copperisms.items.CopperismsItems;
+import net.minecraft.client.render.entity.LightningEntityRenderer;
 import net.minecraft.component.DataComponentType;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.Entity;
@@ -57,8 +58,6 @@ public class CopperBottle extends Item {
             stack.set(CopperismsItems.TICKS_LEFT, ticksLeft-1);
         }
     }
-
-
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {

@@ -1,5 +1,6 @@
 package checkmc.copperisms;
 
+import checkmc.copperisms.entity.CopperismsEntities;
 import checkmc.copperisms.items.CopperismsItemGroups;
 import checkmc.copperisms.items.CopperismsItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,9 +23,7 @@ public class CopperismsMain implements ModInitializer {
         LOGGER.info("copperisms started");
         CopperismsItems.registerItems();
         CopperismsItemGroups.registerItemGroups();
-
-        // Model Predicate for Copper Bottle
-
+        CopperismsEntities.registerEntities();
 
     }
 }
